@@ -1,0 +1,71 @@
+K 25
+svn:wc:ra_dav:version-url
+V 43
+/svn/!svn/ver/136/trunk/SPECTRA/Hot_spectra
+END
+ipagb_ckc14.spec_solar
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/!svn/ver/136/trunk/SPECTRA/Hot_spectra/ipagb_ckc14.spec_solar
+END
+ipagb_basel.spec_solar
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/!svn/ver/92/trunk/SPECTRA/Hot_spectra/ipagb_basel.spec_solar
+END
+CMFGEN_WC_Zall.spec
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/!svn/ver/136/trunk/SPECTRA/Hot_spectra/CMFGEN_WC_Zall.spec
+END
+ipagb_ckc14.spec_halo
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/!svn/ver/136/trunk/SPECTRA/Hot_spectra/ipagb_ckc14.spec_halo
+END
+ipagb_miles.spec_solar
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/!svn/ver/92/trunk/SPECTRA/Hot_spectra/ipagb_miles.spec_solar
+END
+ipagb_basel.spec_halo
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/!svn/ver/92/trunk/SPECTRA/Hot_spectra/ipagb_basel.spec_halo
+END
+ipagb.teff
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/svn/!svn/ver/136/trunk/SPECTRA/Hot_spectra/ipagb.teff
+END
+CMFGEN_WN.teff
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/svn/!svn/ver/92/trunk/SPECTRA/Hot_spectra/CMFGEN_WN.teff
+END
+ipagb_miles.spec_halo
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/!svn/ver/92/trunk/SPECTRA/Hot_spectra/ipagb_miles.spec_halo
+END
+CMFGEN_WC.teff
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/svn/!svn/ver/92/trunk/SPECTRA/Hot_spectra/CMFGEN_WC.teff
+END
+CMFGEN_WN_Zall.spec
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/!svn/ver/136/trunk/SPECTRA/Hot_spectra/CMFGEN_WN_Zall.spec
+END

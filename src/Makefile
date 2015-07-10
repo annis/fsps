@@ -1,0 +1,88 @@
+# Modified 2008-10-24 by Ted Kisner <tskisner@lbl.gov>
+
+# NB: this code is fairly memory intensive.  If you run into memory errors
+# when building this code, you may have to increase the default memory 
+# allocation.
+
+#======================
+# Fortran 90 compiler
+# (Uncomment only one)
+#======================
+# GNU
+F90 = gfortran
+#---------------------
+# Intel
+#F90 = ifort
+#---------------------
+# PGI
+#F90 = pgf90
+# PGI (franklin.nersc.gov)
+#F90 = ftn
+#---------------------
+# Pathscale
+#F90 = pathf90
+#---------------------
+# IBM
+#F90 = xlf90_r
+#---------------------
+
+#========================
+# Compiler Optimizations
+#  (Uncomment only one)
+#========================
+# GNU (version < 4.3.0)
+F90FLAGS = -O -cpp
+# GNU (version >= 4.3.0)
+#F90FLAGS = -O3 -march=native -cpp
+#---------------------
+# Intel (Itanium 2 processor)
+#F90FLAGS = -O3 -mcpu=itanium2 -cpp
+# Intel (EM64T/AMD64 processor)
+#F90FLAGS = -O3 -funroll-loops -xP -cpp
+#---------------------
+# PGI
+#F90FLAGS = -O3 -fastsse -Mcache_align -cpp
+#---------------------
+
+PROGS = simple lesssimple autosps simha
+
+COMMON = sps_vars.o sps_utils.o compsp.o ssp_gen.o getmags.o locate.o funcint.o \
+sps_setup.o pz_convol.o get_tuniv.o imf.o imf_weight.o add_dust.o getspec.o sbf.o \
+add_bs.o mod_hb.o add_remnants.o getindx.o smoothspec.o mod_gb.o add_nebular.o \
+write_isochrone.o sfhstat.o linterp.o tsum.o add_agb_dust.o linterparr.o ztinterp.o
+
+
+all : $(PROGS)
+
+clean :
+	rm -rf *.o *.mod *.MOD *~
+
+autosps : autosps.o $(COMMON)
+	$(F90) -o autosps.exe autosps.o $(COMMON)
+
+simple : simple.o $(COMMON)
+	$(F90) -o simple.exe simple.o $(COMMON)
+
+simha : simha.o $(COMMON)
+	$(F90) -o simha simha.o $(COMMON)
+
+lesssimple : lesssimple.o $(COMMON)
+	$(F90) -o lesssimple.exe lesssimple.o $(COMMON)
+
+autosps.o : sps_vars.o sps_utils.o
+
+simha.o : sps_vars.o  sps_utils.o
+
+simple.o : sps_vars.o  sps_utils.o
+
+lesssimple.o : sps_vars.o sps_utils.o
+
+sps_utils.o :  sps_vars.o
+
+%.o : %.f90
+	$(F90) $(F90FLAGS) -o $@ -c $<
+
+%.o : nr/%.f90
+	$(F90) $(F90FLAGS) -o $@ -c $<
+
+

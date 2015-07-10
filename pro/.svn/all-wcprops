@@ -1,0 +1,35 @@
+K 25
+svn:wc:ra_dav:version-url
+V 27
+/svn/!svn/ver/150/trunk/pro
+END
+read_mags.pro
+K 25
+svn:wc:ra_dav:version-url
+V 41
+/svn/!svn/ver/140/trunk/pro/read_mags.pro
+END
+read_spec.pro
+K 25
+svn:wc:ra_dav:version-url
+V 41
+/svn/!svn/ver/150/trunk/pro/read_spec.pro
+END
+read_fsps.pro
+K 25
+svn:wc:ra_dav:version-url
+V 41
+/svn/!svn/ver/113/trunk/pro/read_fsps.pro
+END
+read_indx.pro
+K 25
+svn:wc:ra_dav:version-url
+V 41
+/svn/!svn/ver/113/trunk/pro/read_indx.pro
+END
+read_cmd.pro
+K 25
+svn:wc:ra_dav:version-url
+V 40
+/svn/!svn/ver/150/trunk/pro/read_cmd.pro
+END

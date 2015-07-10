@@ -1,0 +1,203 @@
+K 25
+svn:wc:ra_dav:version-url
+V 27
+/svn/!svn/ver/160/trunk/src
+END
+linterparr.f90
+K 25
+svn:wc:ra_dav:version-url
+V 42
+/svn/!svn/ver/108/trunk/src/linterparr.f90
+END
+mod_gb.f90
+K 25
+svn:wc:ra_dav:version-url
+V 38
+/svn/!svn/ver/160/trunk/src/mod_gb.f90
+END
+tsum.f90
+K 25
+svn:wc:ra_dav:version-url
+V 35
+/svn/!svn/ver/79/trunk/src/tsum.f90
+END
+sps_vars.f90
+K 25
+svn:wc:ra_dav:version-url
+V 40
+/svn/!svn/ver/157/trunk/src/sps_vars.f90
+END
+add_agb_dust.f90
+K 25
+svn:wc:ra_dav:version-url
+V 44
+/svn/!svn/ver/148/trunk/src/add_agb_dust.f90
+END
+add_nebular.f90
+K 25
+svn:wc:ra_dav:version-url
+V 43
+/svn/!svn/ver/138/trunk/src/add_nebular.f90
+END
+compsp.f90
+K 25
+svn:wc:ra_dav:version-url
+V 38
+/svn/!svn/ver/130/trunk/src/compsp.f90
+END
+getindx.f90
+K 25
+svn:wc:ra_dav:version-url
+V 39
+/svn/!svn/ver/112/trunk/src/getindx.f90
+END
+write_isochrone.f90
+K 25
+svn:wc:ra_dav:version-url
+V 47
+/svn/!svn/ver/156/trunk/src/write_isochrone.f90
+END
+funcint.f90
+K 25
+svn:wc:ra_dav:version-url
+V 39
+/svn/!svn/ver/105/trunk/src/funcint.f90
+END
+sbf.f90
+K 25
+svn:wc:ra_dav:version-url
+V 35
+/svn/!svn/ver/155/trunk/src/sbf.f90
+END
+sfhstat.f90
+K 25
+svn:wc:ra_dav:version-url
+V 38
+/svn/!svn/ver/53/trunk/src/sfhstat.f90
+END
+add_bs.f90
+K 25
+svn:wc:ra_dav:version-url
+V 37
+/svn/!svn/ver/53/trunk/src/add_bs.f90
+END
+Makefile
+K 25
+svn:wc:ra_dav:version-url
+V 36
+/svn/!svn/ver/154/trunk/src/Makefile
+END
+imf_weight.f90
+K 25
+svn:wc:ra_dav:version-url
+V 41
+/svn/!svn/ver/98/trunk/src/imf_weight.f90
+END
+smoothspec.f90
+K 25
+svn:wc:ra_dav:version-url
+V 42
+/svn/!svn/ver/138/trunk/src/smoothspec.f90
+END
+sps_setup.f90
+K 25
+svn:wc:ra_dav:version-url
+V 41
+/svn/!svn/ver/154/trunk/src/sps_setup.f90
+END
+sps_utils.f90
+K 25
+svn:wc:ra_dav:version-url
+V 41
+/svn/!svn/ver/155/trunk/src/sps_utils.f90
+END
+getmags.f90
+K 25
+svn:wc:ra_dav:version-url
+V 39
+/svn/!svn/ver/133/trunk/src/getmags.f90
+END
+add_dust.f90
+K 25
+svn:wc:ra_dav:version-url
+V 40
+/svn/!svn/ver/145/trunk/src/add_dust.f90
+END
+mod_hb.f90
+K 25
+svn:wc:ra_dav:version-url
+V 37
+/svn/!svn/ver/94/trunk/src/mod_hb.f90
+END
+simple.f90
+K 25
+svn:wc:ra_dav:version-url
+V 38
+/svn/!svn/ver/120/trunk/src/simple.f90
+END
+getspec.f90
+K 25
+svn:wc:ra_dav:version-url
+V 39
+/svn/!svn/ver/156/trunk/src/getspec.f90
+END
+ssp_gen.f90
+K 25
+svn:wc:ra_dav:version-url
+V 39
+/svn/!svn/ver/126/trunk/src/ssp_gen.f90
+END
+autosps.f90
+K 25
+svn:wc:ra_dav:version-url
+V 39
+/svn/!svn/ver/130/trunk/src/autosps.f90
+END
+add_remnants.f90
+K 25
+svn:wc:ra_dav:version-url
+V 43
+/svn/!svn/ver/99/trunk/src/add_remnants.f90
+END
+get_tuniv.f90
+K 25
+svn:wc:ra_dav:version-url
+V 41
+/svn/!svn/ver/120/trunk/src/get_tuniv.f90
+END
+locate.f90
+K 25
+svn:wc:ra_dav:version-url
+V 37
+/svn/!svn/ver/97/trunk/src/locate.f90
+END
+pz_convol.f90
+K 25
+svn:wc:ra_dav:version-url
+V 41
+/svn/!svn/ver/126/trunk/src/pz_convol.f90
+END
+imf.f90
+K 25
+svn:wc:ra_dav:version-url
+V 34
+/svn/!svn/ver/53/trunk/src/imf.f90
+END
+linterp.f90
+K 25
+svn:wc:ra_dav:version-url
+V 38
+/svn/!svn/ver/97/trunk/src/linterp.f90
+END
+ztinterp.f90
+K 25
+svn:wc:ra_dav:version-url
+V 40
+/svn/!svn/ver/130/trunk/src/ztinterp.f90
+END
+lesssimple.f90
+K 25
+svn:wc:ra_dav:version-url
+V 42
+/svn/!svn/ver/126/trunk/src/lesssimple.f90
+END

@@ -1,0 +1,83 @@
+K 25
+svn:wc:ra_dav:version-url
+V 43
+/svn/!svn/ver/158/trunk/SPECTRA/AGB_spectra
+END
+Orich_teff_allZ.dat
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/!svn/ver/136/trunk/SPECTRA/AGB_spectra/Orich_teff_allZ.dat
+END
+Orich_spec_all_ckc14.dat
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/!svn/ver/158/trunk/SPECTRA/AGB_spectra/Orich_spec_all_ckc14.dat
+END
+Orich_spec_all_basel.dat
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/!svn/ver/158/trunk/SPECTRA/AGB_spectra/Orich_spec_all_basel.dat
+END
+Crich_teff_allZ.dat
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svn/!svn/ver/9/trunk/SPECTRA/AGB_spectra/Crich_teff_allZ.dat
+END
+Orich_spec_all_miles.dat
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/!svn/ver/158/trunk/SPECTRA/AGB_spectra/Orich_spec_all_miles.dat
+END
+Teff_HK_Z.dat
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/svn/!svn/ver/2/trunk/SPECTRA/AGB_spectra/Teff_HK_Z.dat
+END
+Crich_spec_all_ckc14.dat
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/!svn/ver/158/trunk/SPECTRA/AGB_spectra/Crich_spec_all_ckc14.dat
+END
+Crich_spec_all_basel.dat
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/!svn/ver/92/trunk/SPECTRA/AGB_spectra/Crich_spec_all_basel.dat
+END
+Teff_IK_Z.dat
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/svn/!svn/ver/2/trunk/SPECTRA/AGB_spectra/Teff_IK_Z.dat
+END
+Crich_spec_all_miles.dat
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/!svn/ver/158/trunk/SPECTRA/AGB_spectra/Crich_spec_all_miles.dat
+END
+README
+K 25
+svn:wc:ra_dav:version-url
+V 48
+/svn/!svn/ver/2/trunk/SPECTRA/AGB_spectra/README
+END
+Teff_RH_Z.dat
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/svn/!svn/ver/2/trunk/SPECTRA/AGB_spectra/Teff_RH_Z.dat
+END
+Teff_RI_Z.dat
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/svn/!svn/ver/2/trunk/SPECTRA/AGB_spectra/Teff_RI_Z.dat
+END
