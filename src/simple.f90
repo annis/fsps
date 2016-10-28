@@ -26,10 +26,12 @@
   ! with no dust, and the 'default' assumptions regarding the 
   ! locations of the isochrones
 
-  imf_type  = 2             !define the IMF (1=Chabrier 2003)
+  imf_type  = 0             !define the IMF (1=Chabrier 2003) (0=salpeter)
                             !see sps_vars.f90 for details of this var
-  pset%zmet = 20            !define the metallicity (see the manual)
-                            !20 = solar metallacity
+  !pset%zmet = 20            !define the metallicity (see the manual)
+  !                          !20 = solar metallacity for Padova+BaSeL
+  pset%zmet = 4             !define the metallicity (see the manual)
+                            !4 = solar metallacity for Padova+Miles
 
   CALL SPS_SETUP(pset%zmet) !read in the isochrones and spectral libraries
 
@@ -59,8 +61,10 @@
 
   imf_type  = 0                !define the IMF (0=Salpeter)
                                !see sps_vars.f90 for details of this var
-  pset%zmet = 20               !define the metallicity (see the lookup table)
-                               !20 = solar metallacity
+  !pset%zmet = 20               !define the metallicity (see the lookup table)
+  !                             !20 = solar metallacity
+  pset%zmet = 4             
+                            
 
   !NB: you only need to re-run SPS_SETUP if you have changed the metallicity
   !    or, even better (but slower), you can call SPS_SETUP(-1) and this will

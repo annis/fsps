@@ -30,6 +30,29 @@ SUBROUTINE GETMAGS(zred,spec,mags,mag_compute)
      magflag = 1
   ENDIF
 
+  ! JTA changing alpha/Fe via spline fit to MILES spectra ratio
+  ! spec = spec * ( &
+  !   + (spec_lambda**0)*(9.95400175e-01)  &
+  !   + (spec_lambda**1)*(5.64599641e-05) &
+  !   + (spec_lambda**2)*(-2.68732708e-08) &
+  !   + (spec_lambda**3)*(4.23254854e-12) & 
+  !   + (spec_lambda**4)*( -2.16644332e-16) &
+  !   ) 
+  ! spec = spec * ( &
+  !   + (spec_lambda**0)*(-6.60525884e-01)  &
+  !   + (spec_lambda**1)*(1.68594678e-03) &
+  !   + (spec_lambda**2)*(-6.62213048e-07) &
+  !   + (spec_lambda**3)*(1.26620043e-10) & 
+  !   + (spec_lambda**4)*(-1.18475548e-14) &
+  !   + (spec_lambda**5)*(4.35957547e-19) &
+  !   ) 
+  ! the following is the one used for the BMA paper
+  ! spec = spec * ( &
+  !   + (spec_lambda**2)*(1.66454871e-08 ) &
+  !   + (spec_lambda**1)*(-2.01350117e-04) & 
+  !   + (spec_lambda**0)*(1.63908679e+00) &
+  !   ) 
+
   !redshift the spectrum
   IF (ABS(zred).GT.tiny_number) THEN
      DO i=1,nspec

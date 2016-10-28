@@ -6,8 +6,8 @@ MODULE SPS_VARS
   SAVE
 
 !-------set the spectral library------!
-#define BASEL 1
-#define MILES 0
+#define BASEL 0
+#define MILES 1
 ! "CKC14" currently under development.  do not use!
 #define CKC14 0
 
@@ -99,7 +99,9 @@ MODULE SPS_VARS
   !3 = van Dokkum 2008 (parameter must be specified in imf_vdmc)
   !4 = Dave 2008 (parameter specified in imf_mdave)
   !5 = user-defined piece-wise power-law, specified in imf.dat
-  INTEGER :: imf_type=1
+  INTEGER :: imf_type=0
+  ! JTA trying the dwarf rich spectra, search for JTA
+  !INTEGER :: imf_type=2
 
   !flag specifying zero-point of magnitudes
   !0 = AB system
@@ -277,7 +279,7 @@ MODULE SPS_VARS
   !environment variable for SPS home directory
   CHARACTER(250) :: SPS_HOME=''
   !name of the filter file, if blank it defaults to allfilters.dat
-  CHARACTER(30)  :: alt_filter_file=''
+  CHARACTER(30)  :: alt_filter_file='sdssfilters.dat'
 
   !Age of Universe in Gyr (set in sps_setup.f90)
   REAL(SP) :: tuniv=0.
@@ -380,7 +382,14 @@ MODULE SPS_VARS
   TYPE PARAMS
      REAL(SP) :: pagb=1.0,dell=0.,delt=0.,fbhb=0.,sbss=0.,tau=1.0,&
           const=0.,tage=0.,fburst=0.,tburst=11.0,dust1=0.,dust2=0.,&
-          logzsol=0.,zred=0.,pmetals=0.02,imf1=1.3,imf2=2.3,imf3=2.3,&
+          ! JTA original
+          ! logzsol=0.,zred=0.,pmetals=0.02,imf1=1.3,imf2=2.3,imf3=2.3,&
+          ! JTA kroupa universal, extragalactic
+          ! logzsol=0.,zred=0.,pmetals=0.02,imf1=1.3,imf2=2.3,imf3=2.7,&
+          ! JTA dwarf rich = 3.0
+          !logzsol=0.,zred=0.,pmetals=0.02,imf1=1.3,imf2=3.0,imf3=3.0,&
+          ! JTA gotta be a better version of the 2.7 kroupa 
+          logzsol=0.,zred=0.,pmetals=0.02,imf1=1.3,imf2=2.7,imf3=2.7,&
           vdmc=0.08,dust_clumps=-99.,frac_nodust=0.,dust_index=-0.7,&
           dust_tesc=7.0,frac_obrun=0.,uvb=1.0,mwr=3.1,redgb=1.0,&
           dust1_index=-1.0,mdave=0.5,sf_start=0.,sf_trunc=0.,sf_theta=0.,&

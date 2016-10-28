@@ -610,8 +610,8 @@ SUBROUTINE COMPSP(write_compsp,nzin,outfile,mass_ssp,&
       !redshift spectrum; calculate mags
       ! JTA modified to be a pset
       IF (pset%redshift_colors.EQ.0) THEN
-	 ! JTA
-	 zred=pset%zred
+	     ! JTA
+	     zred=pset%zred
          CALL GETMAGS(zred,spec_csp,mags,pset%mag_compute)
       ELSE
          !here we compute the redshift at the corresponding age
